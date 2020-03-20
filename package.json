@@ -1,6 +1,11 @@
 {
+  "author": {
+    "name": "Andrey Matushenko",
+    "email": "andrey.matushenko.dp@gmail.com",
+    "url": "https://github.com/fundlg"
+  },
   "name": "vue-time-ticker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/vue-time-ticker.umd.js",
   "module": "dist/vue-time-ticker.esm.js",
   "unpkg": "dist/vue-time-ticker.min.js",
@@ -13,10 +18,22 @@
     "attributes.json",
     "tags.json"
   ],
-  "vetur": {
-    "tags": "tags.json",
-    "attributes": "attributes.json"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fundlg/vue-time-ticker.git"
   },
+  "keywords": [
+    "vuejs",
+    "time",
+    "ticker",
+    "counter",
+    "realtime"
+  ],
+  "bugs": {
+    "url": "https://github.com/fundlg/vue-time-ticker/issues"
+  },
+  "homepage": "https://github.com/fundlg/vue-time-ticker",
+  "license": "ISC",
   "scripts": {
     "build": "npm run build:unpkg & npm run build:es & npm run build:umd",
     "build:umd": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format umd --file dist/vue-time-ticker.umd.js",
