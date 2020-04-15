@@ -3,6 +3,10 @@
 This component provides functionality to display realtime second by second update
 of the time difference between passed time and the current time. All mounted components will use the single scheduler, so all repaint will be smooth enough. The scheduler is lazy, so if you have no mounted components, you will have zero timeouts.
 
+### Preview
+
+![vue-time-ticker-demo.gif](https://s6.gifyu.com/images/vue-time-ticker-demo.gif)
+
 ### Setup
 
 ```
@@ -20,7 +24,7 @@ npm install vue-time-ticker
 ```
 <template>
   <div>
-    <vue-time-ticker :value="getValue" format="HOURS" />
+    <vue-time-ticker :value="formattedValue" format="HOURS" />
   </div>
 </template>
 
@@ -31,7 +35,7 @@ export default {
   name: 'Counter',
   components: { VueTimeTicker },
   computed: {
-    getValue() {
+    formattedValue() {
       // any source of data for your component
       return this.value;
     },
