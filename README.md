@@ -21,7 +21,7 @@ npm install vue-time-ticker
 
 ### Usage
 
-```
+```javascript
 <template>
   <div>
     <vue-time-ticker :value="formattedValue" format="HOURS" />
