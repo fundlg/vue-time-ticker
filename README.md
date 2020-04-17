@@ -5,7 +5,7 @@ of the time difference between passed time and the current time. All mounted com
 
 ### Preview
 
-![vue-time-ticker-demo.gif](https://s6.gifyu.com/images/vue-time-ticker-demo.gif)
+![vue-time-ticker-demo.gif](https://s6.gifyu.com/images/vue-time-ticker-demo9d73226628fe821f.gif)
 
 ### Setup
 
